@@ -3,35 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Espar RodBar</title>
   </head>
   <body>
     <div class="container">
-      <nav>
-        <ul>
-          <li>Espar RodBar</li>
-          <li>Home</li>
-          <li>Challenges</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <section>
-        <div>
-          <ul>
-            <li>linkedIn</li>
-            <li>email</li>
-            <li>github</li>
-          </ul>
-        </div>
-        <h2>Fron end web developer</h2>
-      </section>
-      <section>
+      <header class="main-header">
+        <h1>Espar RodBar</h1>
+        <nav class="nav-menu">
+          <a>Home</a>
+          <a>Challenges</a>
+          <a>Contact</a>
+        </nav>
+      </header>
+      <header class="header-section">
+        <img src="images/avatar-espar.jpg" alt="photo of Espar" />
+        <h2>Front End Web Developer</h2>
+      </header>
+      <section class="section-about">
         <p>Hello, my name is Espartaco.</p>
         <p>
           First, thank you for visiting my page! I'm a Front End Developer, or..
           at least this is what i want to become!
         </p>
+
         <p>
           I live in Barcelona, with a mobile repair technician's background, i
           began to self-taught to code after the COVID-19 pandemic. I am focus
@@ -39,11 +41,28 @@
         </p>
         <p>
           I enjoy my job, i love my family and i thank to them a million times
-          for their support: my beloved wife, my little smurfette, 'Gus' my
-          little white dog, and my mother! Thanks for belive in me.
+          for their support: my beloved wife, my little smurfette, my little
+          white dog 'Gus', and my mother! Thanks for belive in me.
         </p>
       </section>
-      <section></section>
+      <section class="section-challenges">
+        <h3>Challenges</h3>
+        <p>
+          Here i'm going to post all the challenges from
+          https://www.frontendmentor.io/, and other stuff
+        </p>
+        <div class="grid"></div>
+      </section>
+      <section class="contact">
+        <div>
+          <ul>
+            <li>linkedIn</li>
+            <li>email</li>
+            <li>github</li>
+          </ul>
+        </div>
+      </section>
+      <footer></footer>
     </div>
   </body>
 </html>
