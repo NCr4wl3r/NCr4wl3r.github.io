@@ -7,9 +7,9 @@
   */
 
 /* COLOR SISTEM
-  primary colors: 0f172a 1e293b 334155
+  primary colors: #0f172a #1e293b #334155
   accent color: #312e81
-  text: #e2e8f0 #f1f5f9
+  text: #e2e8f0 #f1f5f9 #f8fafc
 
   */
 * {
@@ -54,14 +54,21 @@ h1 {
 .nav-menu a:last-child {
   margin-right: 0;
 }
-.nav-menu a:link {
+.nav-menu a:link,
+.nav-menu a:visited {
   display: inline-block;
+  text-decoration: none;
+  color: #e2e8f0;
 }
+
 .nav-menu a:hover {
   background-color: #1e293b;
+  color: #f1f5f9;
 }
+
 .nav-menu a:active {
   background-color: #334155;
+  color: #f8fafc;
 }
 
 /* header section */
